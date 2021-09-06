@@ -1,0 +1,46 @@
+#login {
+  background-image: url("../media/bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-wrapper {
+  margin-bottom: 200px;
+  .form-log {
+    background-color: white;
+    opacity: 0.8;
+    padding: 30px;
+  }
+}
+.w-max {
+  max-width: 1000px;
+}
+
+.input-max-w {
+  max-width: 400px;
+  width: 100%;
+}
+
+.product-upload-form {
+  //   margin-left: 0;
+  @media screen and (min-width: 768px) {
+    margin-left: 300px;
+  }
+}
+
+.upload-form-wrapper {
+  .container-shadow {
+    background: #ffffff;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+  }
+}
+.submit-btn {
+  background-color: #0091ea;
+  padding: 5px 0px !important;
+  border: none !important;
+  border-radius: 10px;
+  &:hover {
+    background-color: rgb(26, 43, 197);
+  }
+}

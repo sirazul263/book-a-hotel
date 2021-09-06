@@ -1,0 +1,39 @@
+.footer {
+  background-color: black;
+  height: 300px;
+  .d-flex {
+    .address {
+      height: 250px;
+      width: 250px;
+      background-color: #0091ea;
+      p {
+        font-size: 14px;
+        margin-left: -10px;
+      }
+    }
+  }
+}
+.social-icons {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  font-size: 16px;
+  padding-top: 7px;
+}
+.facebook {
+  background-color: #537abc;
+}
+.youtube {
+  background-color: #e96349;
+}
+.twitter {
+  background-color: #77cbef;
+}
+.pinerest {
+  background-color: #e95554;
+}
+.footer-bar {
+  background-color: #0091ea;
+  height: 60px;
+  width: 100%;
+}
